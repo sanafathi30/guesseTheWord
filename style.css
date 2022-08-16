@@ -1,0 +1,72 @@
+/*  */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1cb295;
+    font-family: "Poppins";
+}
+
+.wrapper {
+    width: 350px;
+    /* height: 400px; */
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+
+.title {
+    color: #040404;
+    border-bottom: 1px solid gray;
+    padding: 0 0 15px 20px;
+}
+
+.guessBox {
+    display: flex;
+    margin: 30px 40px 15px 40px;
+    justify-content: center;
+}
+
+.box {
+    border: 1px solid gray;
+    margin-right: 15px;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information {
+    margin: 15px 40px 23px 40px;
+}
+
+.information div {
+    padding: 3px 0;
+}
+
+.btn button {
+    border: none;
+    outline: none;
+    background-color: #1cb295;
+    color: #fff;
+    border-radius: 5px;
+    width: 270px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
